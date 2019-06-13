@@ -18,13 +18,13 @@
     });
 
     /* slicknav mobile menu active  */
-    $('.mobile-menu').slicknav({
-        prependTo: '.navbar-header',
-        parentTag: 'liner',
-        allowParentLinks: true,
-        duplicate: true,
-        label: '',
-      });
+    // $('.mobile-menu').slicknav({
+    //     prependTo: '.navbar-header',
+    //     parentTag: 'liner',
+    //     allowParentLinks: true,
+    //     duplicate: true,
+    //     label: '',
+    //   });
 
       /* WOW Scroll Spy
     ========================================================*/
