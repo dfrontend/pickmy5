@@ -67,7 +67,7 @@ ul li, ol li {
 }
 
 .section-title {
-  font-size: 4.267rem;
+  font-size: 2.2rem;
   letter-spacing: 0.03em;
   color: #212121;
   line-height: 52px;
@@ -147,7 +147,8 @@ ul li, ol li {
 }
 
 .btn i {
-  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .btn:focus,
@@ -764,9 +765,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #F0F0F0;
 }
 
-.services-wrapper {
-  margin-top: 30px;
-}
 .services-wrapper .icon {
   position: relative;
   width: 113px;
@@ -828,21 +826,31 @@ margin-bottom: 30px;
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #333333;
+  pointer-events: none;
 }
 .services-item .services-content p {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #5C5C5C;
 }
-.services-item:hover {
-  background: #f3f3f3;
-}
 
 .services-item:hover .icon i {
   background: transparent;
-  color: #E91E63;
+  color: #3d72f2;
 }
 
+.people-section {
+  background-image: url("../img/people.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.people-section .section-title,
+.people-section .services-item .services-content p,
+.people-section .services-item .services-content h3 a {
+  color: #fff;
+}
 
 
 .list-unstyled li {
@@ -909,7 +917,7 @@ margin-bottom: 30px;
 }
 #main-slide .carousel-item {
   overflow: visible;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 #main-slide .carousel-item > img {
   position: relative;
@@ -1044,7 +1052,7 @@ margin-bottom: 30px;
     width: 100%;
   }
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 20%;
     left: 10%;
     right: 10%;
   }
@@ -1089,9 +1097,6 @@ margin-bottom: 30px;
   .section-sub {
     font-size: 16px;
   }
-  #main-slide .carousel-caption {
-    top: 30%;
-  }
   #main-slide .carousel-indicators {
     display: none;
   }
@@ -1100,6 +1105,9 @@ margin-bottom: 30px;
   }
   #hero-area .contents .head-title {
     font-size: 15px;
+  }
+  #main-slide .carousel-item {
+    min-height: 100vh;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 4rem;
